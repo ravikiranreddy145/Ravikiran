@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33261" started-at="2017-11-03T09:43:26Z" finished-at="2017-11-03T09:43:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33261" started-at="2017-11-03T09:43:26Z" finished-at="2017-11-03T09:43:59Z">
+      <class name="com.application.scripts.ContactLensesOrder">
+        <test-method status="PASS" signature="suiteFirst(org.testng.ITestContext)[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="suiteFirst" is-config="true" duration-ms="14" started-at="2017-11-03T15:13:26Z" finished-at="2017-11-03T15:13:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ac85b0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteFirst -->
+        <test-method status="PASS" signature="first(org.testng.ITestContext)[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="first" is-config="true" duration-ms="0" started-at="2017-11-03T15:13:26Z" finished-at="2017-11-03T15:13:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ac85b0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="firstBeforeClass" is-config="true" duration-ms="1" started-at="2017-11-03T15:13:26Z" finished-at="2017-11-03T15:13:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ac85b0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="reportHeader" is-config="true" duration-ms="7871" started-at="2017-11-03T15:13:26Z" finished-at="2017-11-03T15:13:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.application.scripts.ContactLensesOrder.signInTest() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ac85b0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="signInTest()[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="signInTest" duration-ms="24071" started-at="2017-11-03T15:13:34Z" finished-at="2017-11-03T15:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="tearDown" is-config="true" duration-ms="1306" started-at="2017-11-03T15:13:58Z" finished-at="2017-11-03T15:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="close" is-config="true" duration-ms="0" started-at="2017-11-03T15:13:59Z" finished-at="2017-11-03T15:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="first1(org.testng.ITestContext)[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="first1" is-config="true" duration-ms="2" started-at="2017-11-03T15:13:59Z" finished-at="2017-11-03T15:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ac85b0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first1 -->
+        <test-method status="PASS" signature="tearDownFirefox(org.testng.ITestContext)[pri:0, instance:com.application.scripts.ContactLensesOrder@1da2cb77]" name="tearDownFirefox" is-config="true" duration-ms="235" started-at="2017-11-03T15:13:59Z" finished-at="2017-11-03T15:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ac85b0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFirefox -->
+      </class> <!-- com.application.scripts.ContactLensesOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

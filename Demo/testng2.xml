@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-method Suite" parallel="tests" thread-count="2" >
+	<parameter name="parallel" value="No"></parameter>
+
+	 <test name="BIZTALK TO IIB - PTPP Environment"> 
+	 <parameter name="browser" value="firefox"></parameter> 
+	<parameter name="ip" value="http://localhost:5566/wd/hub"></parameter> 
+
+ <classes> 
+<!-- 		<class name="com.wk.delaware.scripts.EGSOrderCreation" />  -->
+<!-- 		<class name="com.wk.delaware.scripts.SRIOrderCreation" />  -->
+		
+<!-- 		<class name="com.wk.ondemand.scripts.PackageCreation" />  -->
+<!--   		 <class name="com.wk.delaware.scripts.SRIOrderCreation" />  -->
+<!-- 		<class name="com.wk.scripts.SVExceptions" /> -->
+<!-- 		<class name="com.wk.delaware.scripts.StatusVerification" />  -->
+<!-- 		<class name="com.wk.scripts.CancelOrders" />  -->
+<!--  		<class name="com.wk.delaware.scripts.MoveStatusFrom564to999" />  -->
+<!-- 		<class name="com.wk.delaware.scripts.Example" />  -->
+<!-- 		<class name="com.wk.delaware.scripts.Example" />  -->
+<!-- <class name="com.wk.dmse.scripts.Order_Creation" />  -->
+<!-- 	<class name="com.wk.dmse.scripts.E1_Evidence" />   -->
+<!-- 	<class name="com.wk.dmse.scripts.Order_Creation" /> -->
+<!-- <class name="com.wk.dmse.scripts.E1_Evidence" /> -->
+<!-- 	<class name="com.wk.iib.scripts.CTA_OW_GSM" /> -->
+<!-- 	<class name="com.wk.iib.scripts.CTA_OW_GSM1" /> -->
+<!-- 	<class name="com.wk.iib.scripts.CTA_OW_PY" />  -->
+<!-- 	<class name="com.wk.iib.scripts.CTA_OW_PY_Create_Order_E1" /> -->
+<!-- 	<class name="com.wk.iib.scripts.ARO_OW_PR" /> -->
+	<class name="com.wk.iib.scripts.CTA_OW_PY_Payment_CTA" />
+	
+	
+	
+	 </classes> 
+	
+</test>
+	
+	
+	
+<!-- 	<test name="DMSE SCRIPTS- PTPP Environment"> -->
+<!-- 	<parameter name="browser" value="ie"></parameter> -->
+<!--    <parameter name="ip" value="http://localhost:5566/wd/hub"></parameter> -->
+
+<!-- 		<classes> -->
+			
+<!-- 		<class name="com.wk.dmse.scripts.Order_Creation" /> -->
+<!-- 				<class name="com.wk.dmse.scripts.E1_Evidence" />  -->
+
+			
+<!-- 		</classes> -->
+
+<!-- 	</test> -->
+
+<!-- 	<test name="E1 SCRIPTS- PTPP Environment"> -->
+<!-- 		<parameter name="browser" value="ie"></parameter> -->
+<!-- 		<parameter name="ip" value="http://localhost:5566/wd/hub"></parameter> -->
+
+<!-- 		<classes> -->
+<!-- 		<class name="com.wk.E1.scripts.Edit_C" />  -->
+<!-- 		<class name="com.wk.E1.scripts.NonDEOrderCreation" />  -->
+<!--  		<class name="com.wk.E1.scripts.InvoiceRegression" />  -->
+<!--  		<class name="com.wk.E1.scripts.Sample" />   -->
+<!-- 	 		<class name="com.wk.iib.scenario1" /> -->
+<!-- 	 		<class name="com.wk.iib.CTA_OW_GSM" />   -->
+<!-- 	 		<class name="com.wk.iib.ARO_OW_PR" />   -->
+<!-- 	<class name="com.wk.iib.CTA_OW_PY" />   -->
+<!-- 	 		<class name="com.wk.e1tosfdc.CreateHQ_CST_C" />   -->
+<!--  		</classes> -->
+
+<!-- </test>	 -->
+
+
+
+
+</suite>

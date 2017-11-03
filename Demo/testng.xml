@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+		
+		<!-- <class name="com.application.scripts.MyAccountAddAddress"/> --> 
+		<!-- <class name="com.application.scripts.EyeGalssCheckOut"/>  -->
+		<!-- <class name="com.application.scripts.MyAccountAddSupportTicket"/>  -->
+		<!-- 	<class name="com.application.scripts.SignInScript"/> 
+
+			<class name="com.objectRepository.ErrorHandling" />
+			<class name="com.application.scripts.ContactLensesOrder" /> 
+			 <class name="com.application.scripts.EyeglassesOrder" /> -->
+			 
+			 <class name="com.application.scripts.ContactLensesOrder" /> 
+		
+
+			
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
